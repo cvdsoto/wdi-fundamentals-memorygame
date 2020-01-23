@@ -1,7 +1,11 @@
 /* let cardOne = "queen";
 let cardTwo = "king";
 let cardThree = "queen";
-let cardFour = "king"; */
+let cardFour = "king";
+
+console.log("User flipped " + cardOne);
+console.log ("User flipped " + cardTwo); */
+
 let cards = ["queen", "queen", "king", "king"];
 let cardsInPlay = [];
 const cardOne = cards[0];
@@ -20,5 +24,3 @@ if (cardsInPlay.length === 2) {
 	}
 }
 
-/* console.log("User flipped " + cardOne);
-console.log ("User flipped " + cardTwo); */
