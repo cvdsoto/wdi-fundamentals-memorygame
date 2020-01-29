@@ -98,4 +98,26 @@ font-size: 0;
 	font-weight: 700;
 }
 
+h3, #score {
+	display: inline;
+	color: #00b39c;
+}
+
+#score {
+	margin-right: 110px;
+	margin-left: 10px;
+}
+
+.button {
+	background-color: #df5e5e;
+	color: white;
+	text-align: center;
+	border: none;
+	padding: 10px 32px;
+	font-size: 12px;
+}
+
+.button:hover {
+	text-decoration: underline;
+}
 
